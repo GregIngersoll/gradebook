@@ -8,25 +8,34 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "/home/ingersg/.nuget/packages/": {}
+    "C:\\Users\\ingersg\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/d/Git_Repos/GregIngersoll/gradebook/src/Gradebook/Gradebook.csproj",
+      "projectUniqueName": "D:\\Git_Repos\\GregIngersoll\\gradebook\\src\\Gradebook\\Gradebook.csproj",
       "projectName": "Gradebook",
-      "projectPath": "/mnt/d/Git_Repos/GregIngersoll/gradebook/src/Gradebook/Gradebook.csproj",
-      "packagesPath": "/home/ingersg/.nuget/packages/",
-      "outputPath": "/mnt/d/Git_Repos/GregIngersoll/gradebook/src/Gradebook/obj/",
+      "projectPath": "D:\\Git_Repos\\GregIngersoll\\gradebook\\src\\Gradebook\\Gradebook.csproj",
+      "packagesPath": "C:\\Users\\ingersg\\.nuget\\packages\\",
+      "outputPath": "D:\\Git_Repos\\GregIngersoll\\gradebook\\src\\Gradebook\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/home/ingersg/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\ingersg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "https://art-bear.autodesk.com/artifactory/api/nuget/autodesk-3p-nuget": {},
+        "https://art-bear.autodesk.com/artifactory/api/nuget/nuget-gallery": {},
+        "https://art-bear.autodesk.com/artifactory/api/nuget/team-revit-nuget": {},
+        "https://art-bear.autodesk.com/artifactory/api/nuget/team-skyscraper-nuget": {},
+        "https://www.nuget.org/api/v2": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -56,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
