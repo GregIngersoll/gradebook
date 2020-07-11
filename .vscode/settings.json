@@ -1,5 +1,8 @@
 {
    "csharp.unitTestDebuggingOptions": {
    
-   }
+   },
+   "editor.quickSuggestions": true,
+   "editor.suggest.statusBar.visible": true,
+   "editor.tabSize": 3
 }
