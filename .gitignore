@@ -1,0 +1,14 @@
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+x64/
+x86/
+
+.vs
+
+*.obj
+*.dll
+*.pch
+*.pdb
+
