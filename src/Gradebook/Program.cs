@@ -10,13 +10,39 @@ namespace Gradebook
       static void Main(string[] args)
       {         
          var book = new Book("Greg's Grade Book");
-         book.AddGrade (89.1);
-         book.AddGrade (90.5);
-         book.AddGrade (77.5);
-//         var grades = new List <double>() { 12.7, 10.3, 0.11, 4.1 };
-//         grades.Add(56.1);
 
-         book.ShowStatistics();
+         while (true)
+         {
+            Console.WriteLine ("Enter a grade or Q to quit");
+            string input = Console.ReadLine();
+            if (input.ToUpper() == "Q")
+               break;
+
+            try 
+            {
+               var grade = double.Parse (input);
+               book.AddGrade (grade);
+            }  
+            catch (ArgumentException ex)
+            {
+               System.Console.WriteLine(ex.Message);
+            }
+            catch (FormatException ex)
+            {
+               System.Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+               System.Console.WriteLine("**");
+            }
+         }
+
+         Statistics statistics = book.GetStatistics();
+
+         System.Console.WriteLine($"Lowest Grade is {statistics.Low}");
+         System.Console.WriteLine($"Highest Grade is {statistics.High}");
+         System.Console.WriteLine($"Average Grade is {statistics.Average:N1}");
+         System.Console.WriteLine($"THe Letter is {statistics.Letter}");
       }
    }
 }

@@ -11,4 +11,6 @@ x86/
 *.dll
 *.pch
 *.pdb
+*.cache
+
 
